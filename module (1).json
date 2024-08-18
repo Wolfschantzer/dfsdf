@@ -1,0 +1,133 @@
+{
+  "id": "lomeo-dnd5e-phantom",
+  "title": "Перевод DnD5e от PHantom и Dungeons_ru",
+  "description": "Простой модуль, который добавляет библиотеки с материалами в переводе от PHantom.",
+  "version": "0.4.8",
+  "authors": [
+    {
+      "name": "Lomeo",
+      "discord": "Lomeo#0446",
+      "url": "https://boosty.to/lomeo",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.330",
+    "maximum": "12.330"
+  },
+  "packs": [
+    {
+      "name": "predmety-phantom",
+      "label": "Предметы [Phantom]",
+      "path": "packs/predmety-phantom",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "zaklinaniya-srd-phantom",
+      "label": "Заклинания [Phantom]",
+      "path": "packs/zaklinaniya-srd-phantom",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "umeniya-phantom",
+      "label": "Умения [Phantom]",
+      "path": "packs/umeniya-phantom",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "klassy-phantom",
+      "label": "Классы [Phantom]",
+      "path": "packs/klassy-phantom",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arhetipy-phantom",
+      "label": "Архетипы [Phantom]",
+      "path": "packs/arhetipy-phantom",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cherty-phantom",
+      "label": "Черты [Phantom]",
+      "path": "packs/cherty-phantom",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rasy-phantom",
+      "label": "Расы [Phantom]",
+      "path": "packs/rasy-phantom",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "predystorii-phantom",
+      "label": "Предыстории [Phantom]",
+      "path": "packs/predystorii-phantom",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiarij-phantom",
+      "label": "Бестиарий [Phantom]",
+      "path": "packs/bestiarij-phantom",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tablicy-phantom",
+      "label": "Таблицы [Phantom]",
+      "path": "packs/tablicy-phantom",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/Lomniko/FoundryVTT-DnD5e-PHantom/master/module.json",
+  "download": "https://github.com/Lomniko/FoundryVTT-DnD5e-PHantom/archive/refs/heads/master.zip"
+}
